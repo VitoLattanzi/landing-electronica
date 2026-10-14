@@ -4,7 +4,7 @@ import { useForm, ValidationError } from '@formspree/react';
 
 const Contact = () => {
   // TODO: Reemplaza con tu ID de formulario real de Formspree
-  const [state, handleSubmit] = useForm(import.meta.env.VITE_FORMSPREE_ID);
+  const [state, handleSubmit] = useForm(import.meta.env.FORMSPREE_ID);
 
   if (state.succeeded) {
     return (
