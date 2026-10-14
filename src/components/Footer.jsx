@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Linkedin } from 'lucide-react';
+import { Mail } from 'lucide-react';
 import SafeLink from './SafeLink';
 
 const Footer = () => {
@@ -9,8 +9,9 @@ const Footer = () => {
         <SafeLink href="mailto:vitofrancolattanzi@gmail.com" className="hover:text-cyan-400 transition-colors">
           <Mail />
         </SafeLink>
-        <SafeLink href="https://www.linkedin.com/in/vito-lattanzi/" className="hover:text-cyan-400 transition-colors">
-          <Linkedin />
+        {/* LinkedIn icon temporarily removed due to import issues */}
+        <SafeLink href="https://www.linkedin.com/in/vito-lattanzi/" className="hover:text-cyan-400 transition-colors font-bold text-sm">
+          LinkedIn
         </SafeLink>
       </div>
       <p>&copy; 2026 Electrónica LD. Todos los derechos reservados.</p>
