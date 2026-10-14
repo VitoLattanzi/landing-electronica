@@ -1,12 +1,17 @@
 import React from 'react';
+import { Mail, Linkedin } from 'lucide-react';
+import SafeLink from './SafeLink';
 
 const Footer = () => {
   return (
-    <footer className="py-12 bg-slate-950 text-white/60 text-center border-t border-white/10">
+    <footer className="py-12 border-t border-white/5 text-center text-slate-500">
       <div className="flex justify-center gap-6 mb-6">
-        <a href="#" className="hover:text-blue-400">Email</a>
-        <a href="#" className="hover:text-blue-400">GitHub</a>
-        <a href="#" className="hover:text-blue-400">LinkedIn</a>
+        <SafeLink href="mailto:vitofrancolattanzi@gmail.com" className="hover:text-cyan-400 transition-colors">
+          <Mail />
+        </SafeLink>
+        <SafeLink href="https://www.linkedin.com/in/vito-lattanzi/" className="hover:text-cyan-400 transition-colors">
+          <Linkedin />
+        </SafeLink>
       </div>
       <p>&copy; 2026 Electrónica LD. Todos los derechos reservados.</p>
     </footer>
