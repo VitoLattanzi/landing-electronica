@@ -1,13 +1,13 @@
 export const testimonials = [
   {
-    name: "Ana P.",
-    company: "Tech Solutions",
-    quote: "Contraté el mantenimiento de toda la oficina y fue un antes y después en la velocidad de nuestras máquinas."
+    name: "Adrian A. ",
+    company: "despachante de aduana",
+    quote: "nos comunicamos para desarrollar una app web a medida para gestionar carga y descarga ena el puerto, y el resultado fue excelente. Muy recomendable."
   },
   {
-    name: "Carlos R.",
-    company: "Office Connect",
-    quote: "La configuración de nuestra red LAN quedó perfecta. Por fin dejamos de tener problemas de desconexión."
+    name: "Paula M.",
+    company: "logistics company",
+    quote: "nos contactamos para desarrollar una landing page para promocionar nuestros servicios. El resultado fue mejor de lo que esperábamos."
   },
   {
     name: "Lucía M.",

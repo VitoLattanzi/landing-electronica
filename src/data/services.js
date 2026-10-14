@@ -14,6 +14,13 @@ export const services = [
     icon: 'Terminal'
   },
   {
+    id: 'automatizacion',
+    title: 'Automatización de Procesos',
+    shortDesc: 'Optimización de tus operaciones con tecnología a medida.',
+    fullDesc: 'Implementamos soluciones de automatización para tareas repetitivas y procesos internos, mejorando la eficiencia y reduciendo errores humanos. Desde scripts simples hasta sistemas complejos, adaptados a tus necesidades. ',
+    icon: 'n8n'
+  },
+  {
     id: 'servicio-tecnico',
     title: 'Servicio Técnico',
     shortDesc: 'Mantenimiento especializado de hardware.',
