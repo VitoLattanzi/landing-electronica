@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 import MainLayout from './layouts/MainLayout';
 import Home from './pages/Home';
 import ServiceDetail from './pages/ServiceDetail';
@@ -18,6 +19,7 @@ function App() {
           <Route path="services/:id" element={<ServiceDetail />} />
         </Route>
       </Routes>
+      <Analytics />
     </BrowserRouter>
   );
 }
